@@ -3,6 +3,7 @@ return {
     "neovim/nvim-lspconfig",
     opts = {
       servers = {
+        kcl = {},
         jsonnet_ls = {},
         gopls = {
           settings = {
